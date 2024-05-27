@@ -12,3 +12,19 @@ equipe_3 = lista_completa[8:12]
 equipe_4 = lista_completa[12:]
 
 print(f"equipe 1: \n {equipe_1}\n\n equipe 2: \n {equipe_2}\n\n equipe 3: \n {equipe_3}\n\n equipe 4: \n {equipe_4}\n")
+
+# escolher aleatoriamente um membro de cada equipe para ser o gerente. Exemplo do professor:
+
+# Monte 4 equipes de alunos
+equipe = [equipe1,equipe2,equipe3,equipe4]
+
+# Selecione um nome de cada lista
+managers = []
+
+for i in range(4): 
+  managers.append(equipe[i].pop())
+
+# Mostre os nomes por cada equipe
+for i in range(4): 
+  print(f'Equipe {i + 1}: {managers[i]}\n')
+
