@@ -1,0 +1,14 @@
+import random
+
+lista_completa = ["Caio", "Davi", "Felipe", "Erick", "Esmael", "Alison", 'Expedito', 'Armando', 'Kauã', 'Marcos', 'Graziel', "Raiane", "Natanael", "Gabriel", "Pedro", "Silas"]
+
+# Embaralha a lista completa
+random.shuffle(lista_completa)
+
+# Divide a lista embaralhada em quatro equipes
+equipe_1 = lista_completa[:4]
+equipe_2 = lista_completa[4:8]
+equipe_3 = lista_completa[8:12]
+equipe_4 = lista_completa[12:]
+
+print(f"equipe 1: \n {equipe_1}\n\n equipe 2: \n {equipe_2}\n\n equipe 3: \n {equipe_3}\n\n equipe 4: \n {equipe_4}\n")
