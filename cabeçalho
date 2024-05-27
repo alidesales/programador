@@ -1,0 +1,19 @@
+# criação de funçoes
+
+def imprimir_cabecalho():
+    print ("***************************************")
+    print ("*        Linguagem Python             *")
+    print ("***************************************")
+
+def contar (inicio,fim):
+    for a in range (inicio,fim+1):
+        print(a,end=" ")    
+
+def imprimir(texto):
+    print(texto)
+
+imprimir_cabecalho()
+print()
+imprimir("capitulo 7")
+print()       
+contar(1,10)     
